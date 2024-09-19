@@ -10,10 +10,13 @@ public class Main {
 
         System.out.println("Liczba uczniów: "+Uczen.liczbaUczniow);
         Uczen uczen = new Uczen("Ewa", "Mewa");
+        System.out.println(uczen);
         System.out.println("Liczba uczniów: "+Uczen.liczbaUczniow);
         Uczen uczen1 = new Uczen("Ada", "Pada");
+        System.out.println(uczen1);
         System.out.println("Liczba uczniów: "+Uczen.liczbaUczniow);
         Uczen uczen2 = new Uczen("Staś", "Paś");
+        System.out.println(uczen2);
         System.out.println("Liczba uczniów: "+Uczen.liczbaUczniow);
 
     }
