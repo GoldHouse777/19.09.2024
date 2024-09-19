@@ -1,11 +1,21 @@
 public class Main {
     public static void main(String[] args) {
         Osoba osoba = new Osoba("Jaś", "Stokrotka");
-        System.out.println(osoba.imie);
-        System.out.println(osoba.nazwisko);
-        System.out.println(osoba.wiek);
-        osoba.imie = "Jan";
-        System.out.println(osoba.imie);
+        System.out.println(osoba.getImie());
+        System.out.println(osoba.getNazwisko());
+        System.out.println(osoba.getWiek());
+        osoba.setImie("Jan");
+        System.out.println(osoba.getImie());
+        System.out.println(osoba);//wywolana metoda toString
+
+        System.out.println("Liczba uczniów: "+Uczen.liczbaUczniow);
+        Uczen uczen = new Uczen("Ewa", "Mewa");
+        System.out.println("Liczba uczniów: "+Uczen.liczbaUczniow);
+        Uczen uczen1 = new Uczen("Ada", "Pada");
+        System.out.println("Liczba uczniów: "+Uczen.liczbaUczniow);
+        Uczen uczen2 = new Uczen("Staś", "Paś");
+        System.out.println("Liczba uczniów: "+Uczen.liczbaUczniow);
+
     }
 }
 
