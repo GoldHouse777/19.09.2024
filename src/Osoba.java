@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
-public class Osoba {
+public abstract class Osoba {
+    /*
+    z klasy abstarkcyjnej nie mozna zrobic obiektu, s;uzy do dziedziczenia
+     */
     private String imie;
     private String nazwisko;
     private int wiek;
